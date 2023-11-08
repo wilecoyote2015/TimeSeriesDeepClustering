@@ -15,8 +15,8 @@ from tensorflow.keras import Model
 import tensorflow.keras.backend as K
 import tensorflow as tf
 
-from networks.encoders import RnnAutoencoderModel
-from networks.encoders import LayersGenerator
+from time_series_deep_clustering.networks.encoders import RnnAutoencoderModel
+from time_series_deep_clustering.networks.encoders import LayersGenerator
 
 
 class FormatLayer(layers.Layer):

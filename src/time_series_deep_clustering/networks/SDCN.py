@@ -16,9 +16,9 @@ from sklearn.cluster import KMeans
 from tensorflow.keras.layers import Layer, ReLU, Reshape, GlobalMaxPool1D
 from tensorflow.keras import Model, Input
 
-import utils
-from networks.IDEC import ClusteringLayer
-from networks.trainer import Trainer
+import time_series_deep_clustering.utilities.utils
+from time_series_deep_clustering.networks.IDEC import ClusteringLayer
+from time_series_deep_clustering.networks.trainer import Trainer
 
 
 class GNNLayer(Layer):

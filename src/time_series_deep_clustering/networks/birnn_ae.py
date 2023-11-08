@@ -12,7 +12,7 @@ from tensorflow.keras import backend as K
 from tensorflow.keras import layers
 from tensorflow.keras import Model
 
-from networks.encoders import LayersGenerator
+from time_series_deep_clustering.networks.encoders import LayersGenerator
 
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
 

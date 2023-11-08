@@ -14,7 +14,7 @@ from sklearn.cluster import KMeans
 import tensorflow as tf
 from tensorflow.keras.models import Model
 
-from networks.trainer import Trainer
+from time_series_deep_clustering.networks.trainer import Trainer
 
 
 class DEPICT(Trainer):

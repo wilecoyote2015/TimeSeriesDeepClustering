@@ -18,8 +18,8 @@ import tensorflow.keras.backend as K
 from tensorflow.keras import Model, Input
 from tensorflow.keras.layers import Dense, Activation
 
-from networks.trainer import Trainer
-import utils
+from time_series_deep_clustering.networks.trainer import Trainer
+import time_series_deep_clustering.utilities.utils
 
 
 def sample_z(batch, z_dim, sampler='one_hot', num_class=10, n_cat=1, label_index=None):

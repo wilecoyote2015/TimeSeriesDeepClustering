@@ -14,11 +14,8 @@ import os
 
 import numpy as np
 import tensorflow as tf
-import tensorflow.keras.backend as K
 from sklearn import metrics
 from sklearn.cluster import KMeans
-from tensorflow.keras.layers import Layer, InputSpec
-from tensorflow.keras.models import Model
 
 import utils
 

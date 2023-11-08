@@ -7,7 +7,7 @@ from tensorflow.keras import Model
 import tensorflow.keras.backend as K
 import tensorflow as tf
 
-from networks.encoders import RnnAutoencoderModel
+from time_series_deep_clustering.networks.encoders import RnnAutoencoderModel
 
 
 class FormatLayer(layers.Layer):

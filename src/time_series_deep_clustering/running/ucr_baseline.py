@@ -15,7 +15,7 @@ from sklearn import metrics
 
 import tensorflow as tf
 
-import utils
+from time_series_deep_clustering.utilities import utils
 
 
 def parse_arguments():

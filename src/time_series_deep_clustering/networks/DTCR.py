@@ -14,8 +14,8 @@ import tensorflow.keras.backend as K
 from sklearn import metrics
 from sklearn.cluster import KMeans
 
-import utils
-from networks.trainer import Trainer
+import time_series_deep_clustering.utilities.utils
+from time_series_deep_clustering.networks.trainer import Trainer
 
 
 class DTCR(Trainer):

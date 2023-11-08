@@ -16,8 +16,8 @@ from sklearn.mixture import GaussianMixture
 from tensorflow.keras.layers import Lambda
 from tensorflow.keras.models import Model
 
-from networks.trainer import Trainer
-import utils
+from time_series_deep_clustering.networks.trainer import Trainer
+import time_series_deep_clustering.utilities.utils
 
 
 class VADE(Trainer):

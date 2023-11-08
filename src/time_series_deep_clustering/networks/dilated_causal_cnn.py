@@ -19,7 +19,7 @@ from tensorflow.keras import initializers
 
 import tensorflow_addons as tfa
 
-from networks.encoders import LayersGenerator
+from time_series_deep_clustering.networks.encoders import LayersGenerator
 
 
 def compute_adaptive_dilations(time_size):

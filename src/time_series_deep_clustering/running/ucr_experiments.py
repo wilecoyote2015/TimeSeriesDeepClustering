@@ -15,17 +15,17 @@ import traceback
 
 import tensorflow as tf
 
-from networks.encoders import EncoderModel
-from networks import mlp_ae, dilated_causal_cnn, bi_dilated_RNN, bilstm_ae, fcnn_ae, resnet, birnn_ae, attention_rnn
-from losses.losses import JointLearningLoss, TripletLoss, MSELoss, CombinedLoss, VAELoss
-from networks.SDCN import SDCN
-from networks.IDEC import IDEC
-from networks.DTCR import DTCR
-from networks.DEPICT import DEPICT
-from networks.ClusterGAN import ClusterGAN
-from networks.VADE import VADE
+from time_series_deep_clustering.networks.encoders import EncoderModel
+from time_series_deep_clustering.networks import mlp_ae, dilated_causal_cnn, bi_dilated_RNN, bilstm_ae, fcnn_ae, resnet, birnn_ae, attention_rnn
+from time_series_deep_clustering.losses.losses import JointLearningLoss, TripletLoss, MSELoss, CombinedLoss, VAELoss
+from time_series_deep_clustering.networks.SDCN import SDCN
+from time_series_deep_clustering.networks.IDEC import IDEC
+from time_series_deep_clustering.networks.DTCR import DTCR
+from time_series_deep_clustering.networks.DEPICT import DEPICT
+from time_series_deep_clustering.networks.ClusterGAN import ClusterGAN
+from time_series_deep_clustering.networks.VADE import VADE
 
-import utils
+from time_series_deep_clustering.utilities import utils
 
 
 def parse_arguments():

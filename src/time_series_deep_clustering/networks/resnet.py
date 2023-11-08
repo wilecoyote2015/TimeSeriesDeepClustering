@@ -13,7 +13,7 @@ from tensorflow.keras import Model
 from tensorflow.keras.layers import Dense, Input, Reshape, Activation, Dropout, add
 from tensorflow.keras.layers import Conv1D, BatchNormalization, GlobalAveragePooling1D
 
-from networks.encoders import LayersGenerator
+from time_series_deep_clustering.networks.encoders import LayersGenerator
 
 
 class AutoEncoder(LayersGenerator):

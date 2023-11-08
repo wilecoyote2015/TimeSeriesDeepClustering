@@ -9,7 +9,7 @@ import numpy as np
 from tensorflow.keras import Model
 from tensorflow.keras.layers import Dense, Input, Reshape, Flatten, Dropout
 
-from networks.encoders import LayersGenerator
+from time_series_deep_clustering.networks.encoders import LayersGenerator
 
 
 class AutoEncoder(LayersGenerator):

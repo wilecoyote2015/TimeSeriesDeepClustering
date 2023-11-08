@@ -15,7 +15,7 @@ from sklearn.cluster import KMeans
 import tensorflow as tf
 import umap
 
-import utils
+from time_series_deep_clustering.utilities import utils
 
 
 def parse_arguments():

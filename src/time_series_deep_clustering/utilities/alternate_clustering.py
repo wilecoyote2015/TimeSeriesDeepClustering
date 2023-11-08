@@ -25,13 +25,13 @@ from sklearn import mixture
 import umap
 
 import utils
-from networks.SDCN import SDCN
-from networks.IDEC import IDEC
-from networks.DTCR import DTCR
-from networks.DEPICT import DEPICT
-from networks.ClusterGAN import ClusterGAN
-from networks.VADE import VADE
-from networks.trainer import get_logs
+from time_series_deep_clustering.networks.SDCN import SDCN
+from time_series_deep_clustering.networks.IDEC import IDEC
+from time_series_deep_clustering.networks.DTCR import DTCR
+from time_series_deep_clustering.networks.DEPICT import DEPICT
+from time_series_deep_clustering.networks.ClusterGAN import ClusterGAN
+from time_series_deep_clustering.networks.VADE import VADE
+from time_series_deep_clustering.networks.trainer import get_logs
 
 UMAP_MIN_DIST = 0
 UMAP_NEIGHBORS = 10

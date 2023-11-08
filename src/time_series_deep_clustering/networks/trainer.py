@@ -15,7 +15,7 @@ import tensorflow as tf
 from sklearn import metrics
 from sklearn.cluster import KMeans
 
-import utils
+import time_series_deep_clustering.utilities.utils
 
 
 def get_logs(log_dict):

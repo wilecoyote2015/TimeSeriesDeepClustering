@@ -18,7 +18,7 @@ from tensorflow.keras.layers import Layer, InputSpec
 from tensorflow.keras.models import Model
 from sklearn.cluster import KMeans
 
-from networks.trainer import Trainer
+from time_series_deep_clustering.networks.trainer import Trainer
 
 
 class ClusteringLayer(Layer):
