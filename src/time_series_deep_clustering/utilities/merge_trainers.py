@@ -11,7 +11,7 @@ import argparse
 from sklearn import metrics
 from sklearn.cluster import KMeans
 
-import utils
+from time_series_deep_clustering.utilities import utils
 from time_series_deep_clustering.networks.trainer import get_logs
 
 TRANSLATE_DICT = {'GAN': 'ClusterGAN', 'DEC': 'IDEC'}
