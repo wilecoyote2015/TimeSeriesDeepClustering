@@ -19,7 +19,7 @@ from tensorflow.keras import Model, Input
 from tensorflow.keras.layers import Dense, Activation
 
 from time_series_deep_clustering.networks.trainer import Trainer
-import time_series_deep_clustering.utilities.utils
+from time_series_deep_clustering.utilities import utils
 
 
 def sample_z(batch, z_dim, sampler='one_hot', num_class=10, n_cat=1, label_index=None):

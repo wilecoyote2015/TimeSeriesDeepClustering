@@ -4,7 +4,7 @@ Script to compute KNN graphs for SDCN method
 Author:
 Baptiste Lafabregue 2019.25.04
 """
-import utils
+from time_series_deep_clustering.utilities import utils
 import argparse
 
 if __name__ == '__main__':

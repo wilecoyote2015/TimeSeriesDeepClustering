@@ -24,7 +24,7 @@ from sklearn import mixture
 
 import umap
 
-import utils
+from time_series_deep_clustering.utilities import utils
 from time_series_deep_clustering.networks.SDCN import SDCN
 from time_series_deep_clustering.networks.IDEC import IDEC
 from time_series_deep_clustering.networks.DTCR import DTCR

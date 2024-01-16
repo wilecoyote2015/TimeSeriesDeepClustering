@@ -17,7 +17,7 @@ import tensorflow as tf
 from sklearn import metrics
 from sklearn.cluster import KMeans
 
-import utils
+from time_series_deep_clustering.utilities import utils
 
 
 class SupervisedResearch(object):

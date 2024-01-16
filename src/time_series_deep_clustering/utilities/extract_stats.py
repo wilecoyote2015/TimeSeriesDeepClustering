@@ -12,7 +12,7 @@ import argparse
 import pandas as pd
 import numpy as np
 
-import utils
+from time_series_deep_clustering.utilities import utils
 
 ELEMENT_COUNT = 6
 

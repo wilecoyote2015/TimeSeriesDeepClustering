@@ -16,7 +16,7 @@ from sklearn.cluster import KMeans
 from tensorflow.keras.layers import Layer, ReLU, Reshape, GlobalMaxPool1D
 from tensorflow.keras import Model, Input
 
-import time_series_deep_clustering.utilities.utils
+from time_series_deep_clustering.utilities import utils
 from time_series_deep_clustering.networks.IDEC import ClusteringLayer
 from time_series_deep_clustering.networks.trainer import Trainer
 

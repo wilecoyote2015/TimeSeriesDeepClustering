@@ -10,7 +10,7 @@ import seaborn as sns
 import umap
 from sklearn.cluster import KMeans
 
-import utils
+from time_series_deep_clustering.utilities import utils
 
 UMAP_MIN_DIST = 0
 UMAP_NEIGHBORS = 10

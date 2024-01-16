@@ -13,7 +13,7 @@ import numpy as np
 from tensorflow.keras import backend as K
 import tensorflow as tf
 
-import time_series_deep_clustering.utilities.utils
+from time_series_deep_clustering.utilities import utils
 
 
 class TripletLoss(object):

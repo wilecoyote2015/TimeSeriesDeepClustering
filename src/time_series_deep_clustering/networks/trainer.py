@@ -15,7 +15,7 @@ import tensorflow as tf
 from sklearn import metrics
 from sklearn.cluster import KMeans
 
-import time_series_deep_clustering.utilities.utils
+from time_series_deep_clustering.utilities import utils
 
 
 def get_logs(log_dict):
@@ -294,9 +294,12 @@ class Trainer(object):
                    verbose=True,
                    only_pretrain=False,
                    save_pretrain=False,
-                   stats_dir='./stats/',
+                   # stats_dir='./stats/',
                    noise=None
                    ):
+
+        stats_dir = os.path.join(save_dir, 'stats')
+        os.makedirs(stats_dir, exist_ok=True)
 
         ###############################
         # print("dist mat start")
@@ -416,7 +419,7 @@ class Trainer(object):
 
         ###############################
         # log summarized stats
-        f = open(stats_dir + self.classifier_name + "_" + self.dataset_name, "w")
+        f = open(os.path.join(stats_dir, self.classifier_name), "w")
         f.write(get_logs(self.last_logs) + '\n')
         f.write(get_logs(self.last_logs_test) + '\n')
         if encoder_summary is not None:

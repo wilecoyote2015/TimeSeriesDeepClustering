@@ -17,7 +17,7 @@ from tensorflow.keras.layers import Lambda
 from tensorflow.keras.models import Model
 
 from time_series_deep_clustering.networks.trainer import Trainer
-import time_series_deep_clustering.utilities.utils
+from time_series_deep_clustering.utilities import utils
 
 
 class VADE(Trainer):
